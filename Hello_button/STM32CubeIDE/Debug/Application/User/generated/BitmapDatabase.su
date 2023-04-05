@@ -1,0 +1,2 @@
+C:/Users/denis/OneDrive/Desktop/lab_work/STM_32/My_projects/Hello_button/TouchGFX/generated/images/src/BitmapDatabase.cpp:21:37:const touchgfx::Bitmap::BitmapData* BitmapDatabase::getInstance()	0	static
+C:/Users/denis/OneDrive/Desktop/lab_work/STM_32/My_projects/Hello_button/TouchGFX/generated/images/src/BitmapDatabase.cpp:26:10:uint16_t BitmapDatabase::getInstanceSize()	0	static

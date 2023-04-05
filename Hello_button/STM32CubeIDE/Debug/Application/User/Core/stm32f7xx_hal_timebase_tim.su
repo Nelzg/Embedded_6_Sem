@@ -1,0 +1,3 @@
+C:/Users/denis/OneDrive/Desktop/lab_work/STM_32/My_projects/Hello_button/Core/Src/stm32f7xx_hal_timebase_tim.c:42:19:HAL_InitTick	40	static
+C:/Users/denis/OneDrive/Desktop/lab_work/STM_32/My_projects/Hello_button/Core/Src/stm32f7xx_hal_timebase_tim.c:95:6:HAL_SuspendTick	0	static
+C:/Users/denis/OneDrive/Desktop/lab_work/STM_32/My_projects/Hello_button/Core/Src/stm32f7xx_hal_timebase_tim.c:107:6:HAL_ResumeTick	0	static

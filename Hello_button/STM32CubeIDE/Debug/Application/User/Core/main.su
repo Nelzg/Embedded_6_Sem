@@ -1,0 +1,5 @@
+C:/Users/denis/OneDrive/Desktop/lab_work/STM_32/My_projects/Hello_button/Core/Src/main.c:676:6:StartDefaultTask	8	static
+C:/Users/denis/OneDrive/Desktop/lab_work/STM_32/My_projects/Hello_button/Core/Src/main.c:227:6:SystemClock_Config	88	static
+C:/Users/denis/OneDrive/Desktop/lab_work/STM_32/My_projects/Hello_button/Core/Src/main.c:126:5:main	120	static,ignoring_inline_asm
+C:/Users/denis/OneDrive/Desktop/lab_work/STM_32/My_projects/Hello_button/Core/Src/main.c:732:6:HAL_TIM_PeriodElapsedCallback	0	static
+C:/Users/denis/OneDrive/Desktop/lab_work/STM_32/My_projects/Hello_button/Core/Src/main.c:749:6:Error_Handler	0	static
