@@ -1,0 +1,39 @@
+02:54:14 **** Incremental Build of configuration Debug for project STemWin_HelloWorld ****
+make all 
+arm-none-eabi-gcc "C:/Users/denis/OneDrive/Desktop/lab_work/STM_32/My_projects/STemWin_HelloWorld/Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F746xx -DUSE_STM32756G_DISCOVERY -c -I../../../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../../../Drivers/STM32F7xx_HAL_Driver/Inc -I../../../Drivers/BSP/STM32746G-Discovery -I../../../Drivers/BSP/Components/Common -I../../../Drivers/BSP/Components -I../../../Middlewares/ST/STemWin/inc -I../../../Utilities -I../../../Utilities/Fonts -I../../../Core/Inc -I../../../STemWin/Target -I../../../Drivers/CMSIS/Include -Os -ffunction-sections -Wall -fstack-usage -MMD -MP -MF"Application/User/Core/main.d" -MT"Application/User/Core/main.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Application/User/Core/main.o"
+C:/Users/denis/OneDrive/Desktop/lab_work/STM_32/My_projects/STemWin_HelloWorld/Core/Src/main.c: In function 'main':
+C:/Users/denis/OneDrive/Desktop/lab_work/STM_32/My_projects/STemWin_HelloWorld/Core/Src/main.c:142:12: warning: assignment to 'unsigned int' from 'volatile unsigned int *' makes integer from pointer without a cast [-Wint-conversion]
+  142 |   taskA.sp = &taskA.stack[STACK_SIZE-16];
+      |            ^
+C:/Users/denis/OneDrive/Desktop/lab_work/STM_32/My_projects/STemWin_HelloWorld/Core/Src/main.c:143:12: warning: assignment to 'unsigned int' from 'volatile unsigned int *' makes integer from pointer without a cast [-Wint-conversion]
+  143 |   taskB.sp = &taskB.stack[STACK_SIZE-16];
+      |            ^
+C:/Users/denis/OneDrive/Desktop/lab_work/STM_32/My_projects/STemWin_HelloWorld/Core/Src/main.c:144:12: warning: assignment to 'unsigned int' from 'volatile unsigned int *' makes integer from pointer without a cast [-Wint-conversion]
+  144 |   taskC.sp = &taskC.stack[STACK_SIZE-16];
+      |            ^
+C:/Users/denis/OneDrive/Desktop/lab_work/STM_32/My_projects/STemWin_HelloWorld/Core/Src/main.c:146:16: warning: assignment discards 'volatile' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  146 |   task_list[0] = &taskA;
+      |                ^
+C:/Users/denis/OneDrive/Desktop/lab_work/STM_32/My_projects/STemWin_HelloWorld/Core/Src/main.c:148:16: warning: assignment discards 'volatile' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  148 |   task_list[1] = &taskB;
+      |                ^
+C:/Users/denis/OneDrive/Desktop/lab_work/STM_32/My_projects/STemWin_HelloWorld/Core/Src/main.c:150:16: warning: assignment discards 'volatile' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  150 |   task_list[2] = &taskC;
+      |                ^
+arm-none-eabi-gcc -o "STemWin_HelloWorld.elf" @"objects.list"  -l:STemWin_CM7_wc32.a -mcpu=cortex-m7 -T"../STM32F746NGHx_FLASH.ld" --specs=nosys.specs -Wl,-Map="STemWin_HelloWorld.map" -Wl,--gc-sections -static -L../../../Middlewares/ST/STemWin/Lib --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: STemWin_HelloWorld.elf
+ 
+arm-none-eabi-size   STemWin_HelloWorld.elf 
+   text	   data	    bss	    dec	    hex	filename
+   1788	      8	   5224	   7020	   1b6c	STemWin_HelloWorld.elf
+Finished building: default.size.stdout
+ 
+arm-none-eabi-objdump -h -S  STemWin_HelloWorld.elf  > "STemWin_HelloWorld.list"
+Finished building: STemWin_HelloWorld.list
+ 
+arm-none-eabi-objcopy  -O binary  STemWin_HelloWorld.elf  "STemWin_HelloWorld.bin"
+Finished building: STemWin_HelloWorld.bin
+ 
+
+02:54:15 Build Finished. 0 errors, 6 warnings. (took 839ms)
+

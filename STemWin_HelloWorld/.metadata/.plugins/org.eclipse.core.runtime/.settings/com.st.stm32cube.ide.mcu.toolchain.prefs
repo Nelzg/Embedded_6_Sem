@@ -1,0 +1,6 @@
+default=com.st.stm32cube.ide.mcu.gnu.managedbuild.toolchain.base.gnu-tools-for-stm32.10.3-2021.10
+eclipse.preferences.version=1
+local.format=1
+local/0/location=C\:\\Program Files (x86)\\GNU Arm Embedded Toolchain\\10 2021.10\\bin
+local/0/name=ARM EMBEDDED
+local/0/prefix=arm-none-eabi-

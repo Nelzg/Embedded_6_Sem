@@ -1,0 +1,5 @@
+C:/Users/denis/OneDrive/Desktop/lab_work/STM_32/My_projects/STemWin_HelloWorld/Core/Src/main.c:28:6:TaskA	8	static
+C:/Users/denis/OneDrive/Desktop/lab_work/STM_32/My_projects/STemWin_HelloWorld/Core/Src/main.c:36:6:TaskB	8	static
+C:/Users/denis/OneDrive/Desktop/lab_work/STM_32/My_projects/STemWin_HelloWorld/Core/Src/main.c:44:6:TaskC	8	static
+C:/Users/denis/OneDrive/Desktop/lab_work/STM_32/My_projects/STemWin_HelloWorld/Core/Src/main.c:52:6:ChangeRunningTask	20	static
+C:/Users/denis/OneDrive/Desktop/lab_work/STM_32/My_projects/STemWin_HelloWorld/Core/Src/main.c:86:5:main	16	static,ignoring_inline_asm

@@ -1,0 +1,13 @@
+C:/Users/denis/OneDrive/Desktop/lab_work/STM_32/My_projects/STemWin_HelloWorld/STemWin/Target/LCDConf.c:622:13:DMA2D_CopyBuffer	12	static
+C:/Users/denis/OneDrive/Desktop/lab_work/STM_32/My_projects/STemWin_HelloWorld/STemWin/Target/LCDConf.c:696:12:GetBufferSize	0	static
+C:/Users/denis/OneDrive/Desktop/lab_work/STM_32/My_projects/STemWin_HelloWorld/STemWin/Target/LCDConf.c:711:13:CUSTOM_CopyBuffer	40	static
+C:/Users/denis/OneDrive/Desktop/lab_work/STM_32/My_projects/STemWin_HelloWorld/STemWin/Target/LCDConf.c:732:13:CUSTOM_CopyRect	24	static
+C:/Users/denis/OneDrive/Desktop/lab_work/STM_32/My_projects/STemWin_HelloWorld/STemWin/Target/LCDConf.c:784:13:CUSTOM_DrawBitmap32bpp	32	static
+C:/Users/denis/OneDrive/Desktop/lab_work/STM_32/My_projects/STemWin_HelloWorld/STemWin/Target/LCDConf.c:751:13:CUSTOM_FillRect	32	static
+C:/Users/denis/OneDrive/Desktop/lab_work/STM_32/My_projects/STemWin_HelloWorld/STemWin/Target/LCDConf.c:173:6:HAL_DMA2D_MspInit	8	static
+C:/Users/denis/OneDrive/Desktop/lab_work/STM_32/My_projects/STemWin_HelloWorld/STemWin/Target/LCDConf.c:186:6:HAL_DMA2D_MspDeInit	0	static
+C:/Users/denis/OneDrive/Desktop/lab_work/STM_32/My_projects/STemWin_HelloWorld/STemWin/Target/LCDConf.c:203:6:HAL_LTDC_MspInit	80	static
+C:/Users/denis/OneDrive/Desktop/lab_work/STM_32/My_projects/STemWin_HelloWorld/STemWin/Target/LCDConf.c:293:6:HAL_LTDC_MspDeInit	0	static
+C:/Users/denis/OneDrive/Desktop/lab_work/STM_32/My_projects/STemWin_HelloWorld/STemWin/Target/LCDConf.c:309:6:HAL_LTDC_LineEventCallback	16	static
+C:/Users/denis/OneDrive/Desktop/lab_work/STM_32/My_projects/STemWin_HelloWorld/STemWin/Target/LCDConf.c:345:6:LCD_X_Config	16	static
+C:/Users/denis/OneDrive/Desktop/lab_work/STM_32/My_projects/STemWin_HelloWorld/STemWin/Target/LCDConf.c:430:5:LCD_X_DisplayDriver	72	static
